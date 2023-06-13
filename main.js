@@ -314,7 +314,7 @@ class CoverComponent {
     }
 }
 CoverComponent.ɵfac = function CoverComponent_Factory(t) { return new (t || CoverComponent)(); };
-CoverComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CoverComponent, selectors: [["app-cover"]], decls: 17, vars: 0, consts: [[1, "m-2"], [1, "row"], [1, "col-8"], [1, "col-4"], ["data-version", "v1", "data-size", "medium", "data-locale", "en_US", "data-type", "vertical", "data-theme", "dark", "data-vanity", "reom03", 1, "LI-profile-badge"], ["href", "https://cl.linkedin.com/in/reom03/en-us?trk=profile-badge", 1, "LI-simple-link"]], template: function CoverComponent_Template(rf, ctx) { if (rf & 1) {
+CoverComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CoverComponent, selectors: [["app-cover"]], decls: 17, vars: 0, consts: [[1, "m-2"], [1, "row"], [1, "col-8"], [1, "col-4"], ["data-locale", "es_ES", "data-size", "medium", "data-theme", "dark", "data-type", "VERTICAL", "data-vanity", "reom03", "data-version", "v1", 1, "badge-base", "LI-profile-badge"], ["href", "https://cl.linkedin.com/in/reom03?trk=profile-badge", 1, "badge-base__link", "LI-simple-link"]], template: function CoverComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-card", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -331,7 +331,7 @@ CoverComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " On the professional side I like a working environment where the company trust their employees, I don't like fixed schedules, I'm not necessarily more productive in the mornings. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, " I really believe that the code you write speaks for you, whether is on behalf of you or against you depends on the passion you put to it. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, " I really believe that the code you write speaks for you, whether is on behalf or against you depends on the passion you put to it. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 3);
@@ -343,7 +343,7 @@ CoverComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCom
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, directives: [_angular_material_card__WEBPACK_IMPORTED_MODULE_1__["MatCard"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvY292ZXIvY292ZXIuY29tcG9uZW50LmNzcyJ9 */"] });
+    } }, directives: [_angular_material_card__WEBPACK_IMPORTED_MODULE_1__["MatCard"]], styles: ["h4[_ngcontent-%COMP%], p[_ngcontent-%COMP%] {\r\n    color: white !important;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9jb3Zlci9jb3Zlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksdUJBQXVCO0FBQzNCIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9jb3Zlci9jb3Zlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaDQsIHAge1xyXG4gICAgY29sb3I6IHdoaXRlICFpbXBvcnRhbnQ7XHJcbn0iXX0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](CoverComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -670,7 +670,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const _c0 = function (a0) { return { "dark-files": a0 }; };
+const _c0 = function (a0, a1) { return { "dark-files": a0, "text-white": a1 }; };
 function FilesComponent_div_3_Template(rf, ctx) { if (rf & 1) {
     const _r10 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 6);
@@ -685,7 +685,7 @@ function FilesComponent_div_3_Template(rf, ctx) { if (rf & 1) {
 } if (rf & 2) {
     const tab_r7 = ctx.$implicit;
     const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](2, _c0, tab_r7 === ctx_r0.current));
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction2"](2, _c0, tab_r7 !== ctx_r0.current, tab_r7 === ctx_r0.current));
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", tab_r7, " ");
 } }
@@ -735,11 +735,11 @@ class FilesComponent {
     }
 }
 FilesComponent.ɵfac = function FilesComponent_Factory(t) { return new (t || FilesComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_files_service__WEBPACK_IMPORTED_MODULE_1__["FilesService"])); };
-FilesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FilesComponent, selectors: [["app-files"]], decls: 11, vars: 7, consts: [[1, "row", "m-0", "dark-theme", "shadow-sm"], [1, "col-md-12"], ["id", "tabs", 1, "row", "shadow-sm"], ["class", "col-md-2 pt-2 pointer border-right border-dark shadow-sm", 3, "ngClass", "click", 4, "ngFor", "ngForOf"], [1, "w-100", 2, "max-height", "90%", "overflow-y", "auto"], [4, "ngIf"], [1, "col-md-2", "pt-2", "pointer", "border-right", "border-dark", "shadow-sm", 3, "ngClass", "click"], [1, "color-red", "fab", "fa-html5"], [1, "btn", "btn-sm", "text-white", "float-right", "mr-0", "pr-0", "pt-0", "mt-0", 3, "click"], [1, "fas", "fa-times"]], template: function FilesComponent_Template(rf, ctx) { if (rf & 1) {
+FilesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FilesComponent, selectors: [["app-files"]], decls: 11, vars: 7, consts: [[1, "row", "m-0", "dark-theme", "shadow-sm"], [1, "col-md-12"], ["id", "tabs", 1, "row", "shadow-sm"], ["class", "col-md-2 pt-2 pointer border-right border-dark shadow-sm", 3, "ngClass", "click", 4, "ngFor", "ngForOf"], [1, "w-100", 2, "max-height", "90%", "overflow-y", "auto"], [4, "ngIf"], [1, "col-md-2", "pt-2", "pointer", "border-right", "border-dark", "shadow-sm", 3, "ngClass", "click"], [1, "color-red", "fab", "fa-html5"], [1, "btn", "btn-sm", "float-right", "mr-0", "pr-0", "pt-0", "mt-0", 3, "click"], [1, "fas", "fa-times"]], template: function FilesComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, FilesComponent_div_3_Template, 5, 4, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, FilesComponent_div_3_Template, 5, 5, "div", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1403,7 +1403,7 @@ TopbarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-toolbar", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-toolbar-row");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "span", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Raul Ortiz - Fullstack Developer ( Grails/Groovy/Java + Angular )");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Raul Ortiz - Technical Lead - Fullstack Developer ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1568,11 +1568,24 @@ class FilesService {
     getJobs() {
         return [
             {
+                title: 'Technical Lead',
+                description: '',
+                startDate: '11/2021', endDate: 'Present', logo: 'bci.png',
+                experience: ['Team Leading', 'Kotlin', 'Java', 'Microservices', 'Jenkins', 'Jira', 'Bitbucket'],
+                company: 'Bci',
+                url: 'https://www.bci.cl',
+                info: {
+                    projects: [
+                        { name: 'App Bci', url: 'https://play.google.com/store/apps/details?id=cl.bci.app.personas&hl=es_CL&gl=US&pli=1' }
+                    ]
+                }
+            },
+            {
                 title: 'Co-founder',
                 description: 'Our company is in charge of the design and the development of Web applications requested by the\n' +
                     'clients, currently developing an Online Dispute Resolutions System for the Chambers of Commerce\n' +
                     'of Santiago.',
-                startDate: '01/2010', endDate: '07/2011', logo: 'def4u.png',
+                startDate: '01/2010', endDate: '10/2021', logo: 'def4u.png',
                 experience: ['Angular 8+', 'Grails', 'Groovy', 'ApiRest', 'Jira', 'Bitbucket'],
                 company: 'Def Systems',
                 url: 'https://www.de4u.com',
