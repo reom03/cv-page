@@ -1569,7 +1569,10 @@ class FilesService {
         return [
             {
                 title: 'Technical Lead',
-                description: '',
+                description: 'TL in a Scrum Cell in charge of the development of a new module \n' +
+                    'which will add integration with the Mach payment ecosystem, to \n' +
+                    'achieve features such as Pays between phone contacts, P2M\n' +
+                    'payments through QR, currently with 80k active users and over 10.000 transactions a month',
                 startDate: '11/2021', endDate: 'Present', logo: 'bci.png',
                 experience: ['Team Leading', 'Kotlin', 'Java', 'Microservices', 'Jenkins', 'Jira', 'Bitbucket'],
                 company: 'Bci',
